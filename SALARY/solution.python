@@ -1,0 +1,8 @@
+a, b = input().split()
+a = int(a)
+if b == "A":
+    print(round(a + 0.2*a + 0.5*a + 1700 - 0.11*a))
+elif b == "B":
+    print(round(a + 0.2*a + 0.5*a + 1500 - 0.11*a))
+else:
+    print(round(a + 0.2*a + 0.5*a + 1300 - 0.11*a))
