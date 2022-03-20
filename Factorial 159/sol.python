@@ -1,0 +1,17 @@
+a = []
+for i in range(int(input())):
+    b = int(input())
+    a.append(b)
+def factorial(n):
+   if n == 1:
+       return n
+   else:
+       return n*factorial(n-1)
+for i in a:
+
+    if i < 0:
+       print("Sorry, factorial does not exist for negative numbers")
+    elif i == 0:
+       print(1)
+    else:
+       print(factorial(i))
